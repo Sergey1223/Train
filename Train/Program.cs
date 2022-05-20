@@ -5,9 +5,8 @@
         public static void Main(string[] args)
         {
             Train train = new Train();
-            Observer observer = new Observer();
             
-            Console.WriteLine("Count of wagons: " + observer.CountWagons(train));
+            Console.WriteLine("Count of wagons: " + Observer.CountWagons(train));
         }
     }
 }
